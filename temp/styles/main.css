@@ -1,0 +1,59 @@
+/* Settings: 
+Collection of variables that do not generate CSS, but are applied to classes. */
+/* Tools: 
+Are typically preprocessor functionsto extend properties properties on classes. */
+.o-conteiner {
+  width: 85%;
+  padding: 8px;
+  margin: 10% auto;
+  border: 4px solid dodgerblue; }
+
+button {
+  opacity: 0.9;
+  cursor: pointer; }
+  button:hover {
+    opacity: 1; }
+
+i {
+  min-width: 50px;
+  text-align: center;
+  opacity: 0.9; }
+
+/* Style the input container */
+.c-container-input {
+  display: flex;
+  width: 100%;
+  margin-bottom: 8px; }
+
+/* Style the form icons */
+.c-icon {
+  padding: 16px;
+  background: dodgerblue;
+  color: white; }
+
+/* Style the input fields */
+.c-input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none; }
+  .c-input-field:focus {
+    border: 2px solid dodgerblue; }
+
+/* Style the input fields */
+.c-btn-register {
+  padding: 16px 20px;
+  border: none;
+  color: white;
+  width: 100%;
+  background-color: dodgerblue; }
+
+/* Utils: 
+Make changes only for a certain style in a specific place */
+/* Scope: 
+Only use scope if is absolutely necessary. */
+/* Is-css:
+Indicates the state of the block or elements. */
+/* Is-js: 
+Is bound to Javascritp. */
+
+/*# sourceMappingURL=main.css.map */
